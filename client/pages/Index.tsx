@@ -105,6 +105,7 @@ export default function Index() {
             ref={noButtonRef}
             onMouseEnter={handleNoHover}
             onFocus={handleNoHover}
+            onClick={handleNoHover}
             className="absolute right-0 md:relative px-6 py-3 bg-gray-300 hover:bg-gray-400 text-gray-800 rounded-full font-bold text-lg transition-all duration-200 transform whitespace-nowrap"
             style={{
               transform: `translate(${noButtonPos.x}px, ${noButtonPos.y}px)`,
